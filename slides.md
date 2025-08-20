@@ -54,7 +54,8 @@ Email: 23f3004489@ds.study.iitm.ac.in
 
 Use visuals to make documentation engaging.
 
----
+![random](https://github.com/user-attachments/assets/ccdaff70-5620-497b-993d-7f78d2b157ed)
+
 
 # Algorithmic Complexity
 
