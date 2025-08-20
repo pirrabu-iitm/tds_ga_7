@@ -1,77 +1,93 @@
----
-marp: true
-theme: custom
-paginate: true
-style: |
-  section {
-    font-family: 'Segoe UI', sans-serif;
-    color: #333;
-  }
+marp: true theme: my-product-theme paginate: true class: lead-slide
+<!-- My custom theme -->
 
-  h1 {
-    color: #005f73;
-  }
+<style>
+@import url('https://www.google.com/search?q=https://fonts.googleapis.com/css2%3Ffamily%3DRoboto:wght%40400%3B700%26display%3Dswap');
 
-  footer {
-    font-size: 0.8em;
-    color: #666;
-  }
+:root {
+--color-primary: #007BFF;
+--color-secondary: #6c757d;
+--color-background: #f8f9fa;
+--color-text: #212529;
+}
 
-  .contact {
-    font-size: 0.9em;
-    color: #444;
-    text-align: right;
-    padding-top: 1em;
-  }
----
+section {
+font-family: 'Roboto', sans-serif;
+color: var(--color-text);
+background-color: var(--color-background);
+}
 
-<!-- _class: lead -->
+h1, h2, h3 {
+color: var(--color-primary);
+text-align: center;
+}
 
-# Product Documentation with Marp
+.lead-slide h1 {
+font-size: 3rem;
+font-weight: 700;
+text-transform: uppercase;
+}
 
-Creating Maintainable, Versioned, and Convertible Docs
+.lead-slide p {
+font-size: 1.25rem;
+color: var(--color-secondary);
+}
 
-<div class="contact">
-Email: 23f3004489@ds.study.iitm.ac.in
-</div>
+footer {
+text-align: center;
+font-size: 0.8rem;
+color: var(--color-secondary);
+}
+</style>
 
----
+Product X: Technical Documentation
+An introduction to our latest software solution.
 
-# Why Use Marp?
+Key Features
+Scalable Architecture: Built on a microservices framework.
 
-- Version control–friendly (Markdown)
-- Converts to PDF, HTML, PPTX
-- Supports themes, math, and images
-- Easy to integrate with CI/CD pipelines
+Robust API: Comprehensive RESTful API for seamless integration.
 
----
+Data Encryption: End-to-end encryption for all data in transit and at rest.
 
-<!-- _backgroundImage: url("https://github.com/user-attachments/assets/ccdaff70-5620-497b-993d-7f78d2b157ed") -->
-<!-- _backgroundSize: cover -->
-<!-- _color: white -->
+Cross-Platform Compatibility: Supports all major operating systems.
 
-# Background Image Slide
+<!-- _class: my-custom-slide -->
 
-Use visuals to make documentation engaging.
+<style scoped>
+.my-custom-slide h2 {
+color: #343a40;
+}
+</style>
 
-![random](https://github.com/user-attachments/assets/ccdaff70-5620-497b-993d-7f78d2b157ed)
+Algorithmic Complexity
+Understanding the performance of our sorting algorithm.
 
+The time complexity of our algorithm is:
 
-# Algorithmic Complexity
+O(n 
+2
+ )
 
-Marp supports LaTeX-style math!
+This is a representation of the worst-case scenario. For a better understanding, we can also consider the average case:
 
-$$
-T(n) = O(n \log n)
-$$
+O(n
+logn)
 
-This is common for efficient sorting algorithms.
+<!-- _class: background-slide -->
 
----
+<style scoped>
+.background-slide {
+background-image: url('https://www.google.com/search?q=https://images.unsplash.com/photo-1510511459019-5173001fcd7b');
+background-size: cover;
+background-position: center;
+}
+</style>
 
-# Custom Theme
+System Architecture Overview
+A high-level view of how the components interact with each other.
 
-You can define themes in the same file or in external `.css`:
+Contact
+For any questions or feedback, please contact:
 
-```yaml
-theme: custom
+23f3004489@ds.study.iitm.ac.in
