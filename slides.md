@@ -46,7 +46,7 @@ Email: 23f3004489@ds.study.iitm.ac.in
 
 ---
 
-<!-- _backgroundImage: url("https://images.unsplash.com/photo-1526378722543-4a1a225dc1e1?auto=format&fit=crop&w=1200&q=80") -->
+<!-- _backgroundImage: url("https://github.com/user-attachments/assets/ccdaff70-5620-497b-993d-7f78d2b157ed") -->
 <!-- _backgroundSize: cover -->
 <!-- _color: white -->
 
