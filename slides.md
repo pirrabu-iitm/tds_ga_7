@@ -46,12 +46,13 @@ Email: 23f3004489@ds.study.iitm.ac.in
 
 ---
 
-<!-- _backgroundImage: url("https://source.unsplash.com/featured/?technology") -->
+<!-- _backgroundImage: url("https://images.unsplash.com/photo-1526378722543-4a1a225dc1e1?auto=format&fit=crop&w=1200&q=80") -->
 <!-- _backgroundSize: cover -->
+<!-- _color: white -->
 
-# Visually Appealing Slides
+# Background Image Slide
 
-Use background images to enhance visual storytelling.
+Use visuals to make documentation engaging.
 
 ---
 
